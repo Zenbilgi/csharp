@@ -32,6 +32,9 @@ namespace FreeCourse.Services.Catalog
 
             services.AddControllers();
 
+            // Options pattern in ASP.NET Core
+            // Is registered as a Singleton and can be injected into any service lifetime.
+            //
             // Config dosyasını
             // Options pattern: Configleri sınıf üstüne alarak okuma işlemidir.
             // Settings klasöründeki nesneleri bu yüzden oluşturduk.

@@ -1,7 +1,7 @@
 ﻿using System;
 namespace FreeCourse.Services.Catalog.Settings
 {
-    public class DatabaseSettings:IDatabaseSettings
+    internal class DatabaseSettings:IDatabaseSettings
     {
         public string CategoryCollectionName { get; set; }
 
